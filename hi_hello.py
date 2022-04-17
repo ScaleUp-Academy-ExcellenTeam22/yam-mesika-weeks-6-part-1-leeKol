@@ -1,4 +1,4 @@
-def words_length(sentence):
+def words_length(sentence: str) -> list:
     """
         The function receives a sentence and returns its word lengths,
         in the order in which they appear in the sentence (punctuation marks are part of the word lengths).
